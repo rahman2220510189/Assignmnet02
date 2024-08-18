@@ -1,0 +1,168 @@
+
+
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bgbg{
+    background-color: rgba(0, 0, 0, 0.98);
+}
+.h3{
+    font-style: italic;
+    color: #E6533C;
+    font-weight: 36px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    padding: 10px;
+    box-shadow: 1px whitesmoke;
+    border-radius: 10px;
+}
+.nav-item{
+
+    list-style: none;
+    margin-right: 40px;
+
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    color:#FFFFFF ;
+
+
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-home{
+    background-color: #E6533C;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.para{
+    color: #FFFFFF;
+    font-weight: 800px;
+}
+.lorem{
+    color: #FFFFFF;
+}
+.banner-sep{
+margin-right: 40px;
+margin-top: 50px;
+max-width: 520px;
+}
+.para{
+    font-weight: bold;
+    font-size: 78px;
+}
+.span-i{
+    font-style: italic;
+}
+    
+.lorem{
+font-size: 16px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.btn{
+    background-color: #E6533C;
+    padding: 7px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    direction: none;
+}
+.btnn{
+  border: 1px solid seashell;
+    padding: 7px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    direction: none;
+}
+
+.button{
+    background-color: #FFFFFF;
+}
+.button{
+    padding: 20px;
+    background-color: #303030;
+    border-radius: 10px;
+    
+ 
+}
+.btnnn{
+    padding: 10px 15px;
+    background-color: #303030;
+    border-radius: 10px;
+}
+.span{
+font-size: 24px;
+font-weight: bold;
+color: #FAFAF9;
+}
+.bgbgbg .button{
+    position: absolute;
+    top: 72%;
+    right: 28%;
+    transform: translate(-20%, -40%);
+}
+.spannn{
+    color: #FAFAF9;
+    font-size: 18px;
+}
+.para .italic{
+    font-style: italic;
+   font-size: 78px;
+}
+.spannn{
+    font-size: 16px;
+    color: #EFEDE8;
+    margin-top: 5px;
+}
+.bgbgbg .btnnn{
+   
+      top: -100%;
+    right: 25%;
+    transform: translate(-55%, -400%);
+}
+
+
+.tus{
+    font-weight: 600;
+    font-size: 40px;
+    color: #EFEDE8;
+    margin-bottom: 3px;
+}
+@media screen and (max-width:576px){
+    .navbar{
+        flex-direction: column;
+    }
+    .nav-links{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column;
+    }
+}
